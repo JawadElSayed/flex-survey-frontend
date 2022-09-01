@@ -1,0 +1,103 @@
+body{
+    background-color: #acabab;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.survey{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10px;
+    background-color: #e5e5e5;
+    color: #703b3f;
+    line-height: 25px;
+}
+
+.header{
+    font-family:sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.date{
+    margin-left: 5%;
+    margin-block-start: 0;
+    font-size: 12px;
+}
+
+.row{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+    flex-wrap: wrap;
+}
+
+.question{
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+
+.input-text{
+    display: flex;
+    margin-right: 70px;
+    width: 220px;
+}
+
+.radio1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 75px;
+    padding-right: 140px;
+}
+
+.radio2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 25px;
+    padding-right: 110px;
+}
+.radio3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.massege{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 37px;
+    padding-right: 37px;
+    font-size: 16px;
+    background-image: linear-gradient( #575757 , #868686 );
+    border: none;
+    color: #ffffff;
+    border-radius:6px; 
+}
+
+
+@media (max-width: 900px) {
+    .survey{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
